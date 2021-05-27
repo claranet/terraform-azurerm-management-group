@@ -3,7 +3,7 @@ output "management_group_name" {
   description = "Management group name"
 }
 
-output "resource_group_id" {
+output "management_group_id" {
   value       = azurerm_management_group.mgmt_group.id
   description = "Management group UID"
 }

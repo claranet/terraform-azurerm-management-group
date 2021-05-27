@@ -52,8 +52,8 @@ module "mg" {
 
 | Name                    | Description           |
 | ----------------------- | --------------------- |
+| management\_group\_id   | Management group UID  |
 | management\_group\_name | Management group name |
-| resource\_group\_id     | Management group UID  |
 
 ## Related documentation
 
