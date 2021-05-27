@@ -26,12 +26,6 @@ variable "management_group_internal_name" {
   default     = null
 }
 
-variable "management_group_uid" {
-  description = "The name or UUID for this Management Group, which needs to be unique across your tenant. A new UUID will be generated if not provided. Changing this forces a new resource to be created."
-  type        = string
-  default     = null
-}
-
 variable "parent_management_group_id" {
   description = "The ID of the Parent Management Group. Changing this forces a new resource to be created."
   type        = string
