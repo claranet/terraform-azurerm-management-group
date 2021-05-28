@@ -27,6 +27,11 @@ module "mg" {
   stack       = var.stack
 
   name_prefix = "ldz" # prefix example
+
+  subscription_ids = [
+    "00000000-0000-0000-0000-000000000000",
+    "00000000-0000-0000-0000-000000000000",
+  ]
 }
 ```
 
@@ -46,7 +51,7 @@ module "mg" {
 | name\_prefix                      | Optional prefix for the generated name                                                                                                                                                    | `string`       | `""`    |    no    |
 | parent\_management\_group\_id     | The ID of the Parent Management Group. Changing this forces a new resource to be created.                                                                                                 | `string`       | `null`  |    no    |
 | stack                             | Project stack name                                                                                                                                                                        | `string`       | n/a     |   yes    |
-| subscription\_ids                 | A list of Subscription GUIDs which should be assigned to the Management Group.                                                                                                            | `list(string)` | `[]`    |    no    |
+| subscription\_ids                 | A list of Subscription GUIDs which should be assigned to the Management Group. Use the current Subscription by default if this variable is not overridden.                                | `list(string)` | `[]`    |    no    |
 
 ## Outputs
 
