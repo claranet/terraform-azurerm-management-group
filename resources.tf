@@ -6,8 +6,11 @@ resource "azurerm_management_group" "mgmt_group" {
   parent_management_group_id = var.parent_management_group_id
 
   name = var.management_group_internal_name
+}
 
-  subscription_ids = var.subscription_ids == null ? null : coalescelist(var.subscription_ids, [
-    data.azurerm_subscription.current.subscription_id,
-  ])
+resource "azurerm_management_group_subscription_association" "mg-sub" {
+  for_each = toset(local.subscription_ids)
+
+  management_group_id = azurerm_management_group.mgmt_group.id
+  subscription_id     = each.key
 }

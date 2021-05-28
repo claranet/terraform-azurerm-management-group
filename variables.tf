@@ -35,5 +35,5 @@ variable "parent_management_group_id" {
 variable "subscription_ids" {
   description = "A list of Subscription GUIDs which should be assigned to the Management Group. Use the current Subscription by default if this variable is not overridden."
   type        = list(string)
-  default     = []
+  default     = null
 }

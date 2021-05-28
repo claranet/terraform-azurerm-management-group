@@ -51,7 +51,7 @@ module "mg" {
 | name\_prefix                      | Optional prefix for the generated name                                                                                                                                                    | `string`       | `""`    |    no    |
 | parent\_management\_group\_id     | The ID of the Parent Management Group. Changing this forces a new resource to be created.                                                                                                 | `string`       | `null`  |    no    |
 | stack                             | Project stack name                                                                                                                                                                        | `string`       | n/a     |   yes    |
-| subscription\_ids                 | A list of Subscription GUIDs which should be assigned to the Management Group. Use the current Subscription by default if this variable is not overridden.                                | `list(string)` | `[]`    |    no    |
+| subscription\_ids                 | A list of Subscription GUIDs which should be assigned to the Management Group. Use the current Subscription by default if this variable is not overridden.                                | `list(string)` | `null`  |    no    |
 
 ## Outputs
 
