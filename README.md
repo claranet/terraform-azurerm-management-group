@@ -7,6 +7,7 @@ Azure terraform module to create a Management Group with associated Azure Subscr
 
 | Module version | Terraform version | AzureRM version |
 | -------------- | ----------------- | --------------- |
+| >= 5.x.x       | 0.15.x & 1.0.x    | >= 2.0          |
 | >= 4.x.x       | 0.13.x            | >= 2.0          |
 | >= 3.x.x       | 0.12.x            | >= 2.0          |
 | >= 2.x.x       | 0.12.x            | < 2.0           |
@@ -35,31 +36,45 @@ module "mg" {
 }
 ```
 
+<!-- BEGIN_TF_DOCS -->
 ## Providers
 
-| Name    | Version |
-| ------- | ------- |
+| Name | Version |
+|------|---------|
 | azurerm | >= 2.60 |
+
+## Modules
+
+No modules.
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [azurerm_management_group.mgmt_group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group) | resource |
+| [azurerm_management_group_subscription_association.mg-sub](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group_subscription_association) | resource |
+| [azurerm_subscription.current](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/subscription) | data source |
+| [azurerm_subscription.sub](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/subscription) | data source |
 
 ## Inputs
 
-| Name                              | Description                                                                                                                                                                               | Type           | Default | Required |
-| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------- | :------: |
-| client\_name                      | Client name/account used in naming                                                                                                                                                        | `string`       | n/a     |   yes    |
-| custom\_management\_group\_name   | Optional custom management group display name                                                                                                                                             | `string`       | `""`    |    no    |
-| management\_group\_internal\_name | The name or UUID for this Management Group, which needs to be unique across your tenant. A new UUID will be generated if not provided. Changing this forces a new resource to be created. | `string`       | `null`  |    no    |
-| name\_prefix                      | Optional prefix for the generated name                                                                                                                                                    | `string`       | `""`    |    no    |
-| parent\_management\_group\_id     | The ID of the Parent Management Group. Changing this forces a new resource to be created.                                                                                                 | `string`       | `null`  |    no    |
-| stack                             | Project stack name                                                                                                                                                                        | `string`       | n/a     |   yes    |
-| subscription\_ids                 | A list of Subscription GUIDs which should be assigned to the Management Group. Use the current Subscription by default if this variable is not overridden.                                | `list(string)` | `null`  |    no    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| client\_name | Client name/account used in naming | `string` | n/a | yes |
+| custom\_management\_group\_name | Optional custom management group display name | `string` | `""` | no |
+| management\_group\_internal\_name | The name or UUID for this Management Group, which needs to be unique across your tenant. A new UUID will be generated if not provided. Changing this forces a new resource to be created. | `string` | `null` | no |
+| name\_prefix | Optional prefix for the generated name | `string` | `""` | no |
+| parent\_management\_group\_id | The ID of the Parent Management Group. Changing this forces a new resource to be created. | `string` | `null` | no |
+| stack | Project stack name | `string` | n/a | yes |
+| subscription\_ids | A list of Subscription GUIDs which should be assigned to the Management Group. Use the current Subscription by default if this variable is not overridden. | `list(string)` | `null` | no |
 
 ## Outputs
 
-| Name                    | Description           |
-| ----------------------- | --------------------- |
-| management\_group\_id   | Management group UID  |
+| Name | Description |
+|------|-------------|
+| management\_group\_id | Management group UID |
 | management\_group\_name | Management group name |
-
+<!-- END_TF_DOCS -->
 ## Related documentation
 
 Terraform Azure Management Group documentation: [registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group)
