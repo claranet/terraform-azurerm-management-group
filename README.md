@@ -3,7 +3,8 @@
 
 Azure terraform module to create a Management Group with associated Azure Subscriptions.
 
-## Version compatibility
+<!-- BEGIN_TF_DOCS -->
+## Global versioning rule for Claranet Azure modules
 
 | Module version | Terraform version | AzureRM version |
 | -------------- | ----------------- | --------------- |
@@ -34,9 +35,9 @@ module "mg" {
     "00000000-0000-0000-0000-000000000000",
   ]
 }
+
 ```
 
-<!-- BEGIN_TF_DOCS -->
 ## Providers
 
 | Name | Version |
@@ -77,4 +78,4 @@ No modules.
 <!-- END_TF_DOCS -->
 ## Related documentation
 
-Terraform Azure Management Group documentation: [registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group)
+Azure Management Group documentation: [docs.microsoft.com/en-us/azure/governance/management-groups/overview](https://docs.microsoft.com/en-us/azure/governance/management-groups/overview)
