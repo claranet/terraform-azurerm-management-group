@@ -50,7 +50,7 @@ module "mg" {
 
 | Name | Version |
 |------|---------|
-| azurerm | >= 2.60 |
+| azurerm | ~> 3.0 |
 
 ## Modules
 
