@@ -1,3 +1,44 @@
+## 7.0.1 (2024-10-03)
+
+### Documentation
+
+* update README badge to use OpenTofu registry 1e70831
+
+### Miscellaneous Chores
+
+* **deps:** update dependency opentofu to v1.7.2 8a3846c
+* **deps:** update dependency opentofu to v1.7.3 768dade
+* **deps:** update dependency opentofu to v1.8.0 2566194
+* **deps:** update dependency opentofu to v1.8.1 e24e27e
+* **deps:** update dependency opentofu to v1.8.2 d2da617
+* **deps:** update dependency pre-commit to v3.8.0 c9a2b16
+* **deps:** update dependency tflint to v0.51.2 3f8a254
+* **deps:** update dependency tflint to v0.52.0 019282f
+* **deps:** update dependency tflint to v0.53.0 6017c18
+* **deps:** update dependency trivy to v0.52.0 ede34fa
+* **deps:** update dependency trivy to v0.52.1 a2dc115
+* **deps:** update dependency trivy to v0.52.2 222b557
+* **deps:** update dependency trivy to v0.53.0 2140e59
+* **deps:** update dependency trivy to v0.54.1 06500ab
+* **deps:** update dependency trivy to v0.55.0 7bdfb70
+* **deps:** update dependency trivy to v0.55.1 51c2d66
+* **deps:** update dependency trivy to v0.55.2 ef2727e
+* **deps:** update dependency trivy to v0.56.0 9836b2c
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.17.0 8ab2aec
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.18.0 de35cb5
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.92.0 76fcaa9
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.92.1 40e3a47
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.92.2 5eda926
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.92.3 d0f263d
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.93.0 f419d34
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.94.0 5018948
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.94.1 78f4046
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.94.2 6bf8f08
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.94.3 623c9b2
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.95.0 489897f
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.96.0 7d87dcb
+* **deps:** update tools 6b42164
+
 ## 5.0.0/7.0.0 (2024-05-31)
 
 
