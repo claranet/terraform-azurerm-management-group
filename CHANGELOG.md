@@ -1,3 +1,78 @@
+## 8.0.1 (2026-02-13)
+
+### Code Refactoring
+
+* **gitlab MR template:** ♻️ update default reviewers group with Azure Factory 🔧 08c8275
+
+### Miscellaneous Chores
+
+* **⚙️:** ✏️ update template identifier for MR review 0f3495f
+* 🗑️ remove old commitlint configuration files a2e48c9
+* **deps:** 🔗 bump AzureRM provider version to v4.31+ f100767
+* **deps:** update dependency opentofu to v1.10.0 6b52e47
+* **deps:** update dependency opentofu to v1.10.1 c7382d5
+* **deps:** update dependency opentofu to v1.10.3 6326b66
+* **deps:** update dependency opentofu to v1.10.6 cf32806
+* **deps:** update dependency opentofu to v1.10.7 b1a62b7
+* **deps:** update dependency opentofu to v1.11.2 7ca67d9
+* **deps:** update dependency opentofu to v1.11.3 42bc9cf
+* **deps:** update dependency opentofu to v1.11.4 551c192
+* **deps:** update dependency opentofu to v1.11.5 f1cbd46
+* **deps:** update dependency opentofu to v1.8.6 b8ac1c1
+* **deps:** update dependency opentofu to v1.8.8 a34a356
+* **deps:** update dependency opentofu to v1.9.0 44e5112
+* **deps:** update dependency opentofu to v1.9.1 05f17bf
+* **deps:** update dependency pre-commit to v4.1.0 d389675
+* **deps:** update dependency pre-commit to v4.2.0 7bca50b
+* **deps:** update dependency pre-commit to v4.4.0 930feef
+* **deps:** update dependency pre-commit to v4.5.0 9a994db
+* **deps:** update dependency pre-commit to v4.5.1 383bf38
+* **deps:** update dependency terraform-docs to v0.20.0 ddc8df2
+* **deps:** update dependency tflint to v0.55.0 a4f75e9
+* **deps:** update dependency tflint to v0.57.0 1110974
+* **deps:** update dependency tflint to v0.58.0 2217eb5
+* **deps:** update dependency tflint to v0.58.1 c8549b0
+* **deps:** update dependency tflint to v0.59.1 549f495
+* **deps:** update dependency tflint to v0.60.0 7508aa8
+* **deps:** update dependency tflint to v0.61.0 ffcc3cb
+* **deps:** update dependency trivy to v0.57.1 929f673
+* **deps:** update dependency trivy to v0.58.1 ab8addb
+* **deps:** update dependency trivy to v0.58.2 e0dc06a
+* **deps:** update dependency trivy to v0.59.1 e4a7d87
+* **deps:** update dependency trivy to v0.60.0 4d2bbf6
+* **deps:** update dependency trivy to v0.61.1 b84e57d
+* **deps:** update dependency trivy to v0.62.0 80fd1e4
+* **deps:** update dependency trivy to v0.62.1 abc1a60
+* **deps:** update dependency trivy to v0.63.0 7952fde
+* **deps:** update dependency trivy to v0.66.0 4794d9d
+* **deps:** update dependency trivy to v0.67.0 273644f
+* **deps:** update dependency trivy to v0.67.1 c50098f
+* **deps:** update dependency trivy to v0.67.2 fe77a29
+* **deps:** update dependency trivy to v0.68.1 25c4bd6
+* **deps:** update dependency trivy to v0.68.2 0d14de5
+* **deps:** update dependency trivy to v0.69.0 452249f
+* **deps:** update dependency trivy to v0.69.1 bc7d9a3
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.19.0 7bd9baf
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.20.0 4be8274
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.21.0 8ce449b
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.22.0 a4fa106
+* **deps:** update pre-commit hook crate-ci/committed to v1.1.10 b095d00
+* **deps:** update pre-commit hook crate-ci/committed to v1.1.8 b11966d
+* **deps:** update pre-commit hook crate-ci/committed to v1.1.9 346cc9b
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 5a92df1
+* **deps:** update pre-commit hook tofuutils/pre-commit-opentofu to v2.2.0 7b8066f
+* **deps:** update pre-commit hook tofuutils/pre-commit-opentofu to v2.2.1 e3a68bc
+* **deps:** update pre-commit hook tofuutils/pre-commit-opentofu to v2.2.2 aba7fe2
+* **deps:** update tools ce8b540
+* **deps:** update tools 21955b5
+* **deps:** update tools aa13a98
+* **deps:** update tools 14c59d8
+* **deps:** update tools 6afa1b2
+* **deps:** update tools c05986e
+* **deps:** update tools 85a8af0
+* update Github templates 4bd5f9c
+* update tflint config for v0.55.0 b9ae4e2
+
 ## 8.0.0 (2024-11-15)
 
 ### ⚠ BREAKING CHANGES
