@@ -59,7 +59,7 @@ module "mg" {
 ## Providers
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | azurerm | ~> 4.31 |
 
 ## Modules
@@ -69,7 +69,7 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [azurerm_management_group.main](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group) | resource |
 | [azurerm_management_group_subscription_association.main](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_group_subscription_association) | resource |
 | [azurerm_subscription.current](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/data-sources/subscription) | data source |
@@ -78,7 +78,7 @@ No modules.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | client\_name | Client name/account used in naming. | `string` | n/a | yes |
 | custom\_name | Optional custom management group display name. | `string` | `""` | no |
 | internal\_name | The name or UUID for this Management Group, which needs to be unique across your tenant. A new UUID will be generated if not provided. Changing this forces a new resource to be created. | `string` | `null` | no |
@@ -90,7 +90,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | associated\_subscriptions\_uids | Management group associated Subscriptions UIDs. |
 | id | Management group UID. |
 | name | Management group name. |
