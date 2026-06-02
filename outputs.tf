@@ -11,6 +11,7 @@ output "id" {
 output "resource" {
   value       = azurerm_management_group.main
   description = "Management group resource object."
+  sensitive   = true
 }
 
 output "associated_subscriptions_uids" {
